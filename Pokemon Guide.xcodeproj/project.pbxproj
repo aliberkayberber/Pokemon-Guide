@@ -83,7 +83,6 @@
 		DD306AE429CA231B00F25F4B /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				DD306AEF29CA23EF00F25F4B /* ViewController */,
 				DD306AEE29CA23E100F25F4B /* View */,
 				DD306AED29CA23D600F25F4B /* ViewModel */,
 				DD306AEC29CA23CE00F25F4B /* Model */,
@@ -97,16 +96,8 @@
 				DD306AEB29CA23BE00F25F4B /* Model */,
 				DD306AEA29CA23B200F25F4B /* ViewModel */,
 				DD306AE929CA23A300F25F4B /* View */,
-				DD306AE729CA236A00F25F4B /* ViewController */,
 			);
 			path = DetailScreen;
-			sourceTree = "<group>";
-		};
-		DD306AE729CA236A00F25F4B /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewController;
 			sourceTree = "<group>";
 		};
 		DD306AE929CA23A300F25F4B /* View */ = {
@@ -149,13 +140,6 @@
 			children = (
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		DD306AEF29CA23EF00F25F4B /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
