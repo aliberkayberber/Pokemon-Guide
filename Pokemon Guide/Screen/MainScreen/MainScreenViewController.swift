@@ -7,7 +7,9 @@
 
 import UIKit
 
-class MainScreenViewController: UIViewController {
+class MainScreenViewController: UIViewController, UISearchResultsUpdating {
+
+    
 
     @IBOutlet private weak var pokemonTableView: UITableView! {
         didSet {
@@ -20,13 +22,20 @@ class MainScreenViewController: UIViewController {
         
     }
     
+    let searchController = UISearchController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
-       
+        let searchController = UISearchController(searchResultsController: nil)
+        
+        navigationItem.searchController = searchController
+        searchController.searchResultsUpdater = self
     }
     
-
+    func updateSearchResults(for searchController: UISearchController) {
+        
+    }
 }
 //MARK: - Tableview Func
 extension MainScreenViewController: UITableViewDelegate , UITableViewDataSource {
