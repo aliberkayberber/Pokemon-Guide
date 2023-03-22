@@ -24,11 +24,21 @@ class DetailScreenViewController: UIViewController {
             detailTableView.rowHeight = 50.0
         }
     }
+    var selectedPokemon: Pokemon?
+    
+    var viewModel: PokemonDetailViewModel?
+    var pokemonUrl: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        title = selectedPokemon?.name.capitalized
+        
+        if let url = selectedPokemon?.url {
+            self.pokemonUrl = url
+        }
+        
+        self.viewModel = PokemonDetailViewModel(urlString: pokemonUrl, apiService: ApiService())
     }
     
 

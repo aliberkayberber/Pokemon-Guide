@@ -11,7 +11,7 @@
         <!--Main Screen View Controller-->
         <scene sceneID="E76-JY-2W7">
             <objects>
-                <viewController id="vDb-Sh-NrR" customClass="MainScreenViewController" customModule="Pokemon_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vDb-Sh-NrR" customClass="MainScreenViewController" customModule="Pokemon_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d2f-WN-2jE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
         <!--Detail Screen View Controller-->
         <scene sceneID="3Dk-Iy-Vp3">
             <objects>
-                <viewController id="QJh-lB-eK2" customClass="DetailScreenViewController" customModule="Pokemon_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QJh-lB-eK2" customClass="DetailScreenViewController" customModule="Pokemon_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5d-hS-bbJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
