@@ -17,7 +17,7 @@ class DetailScreenViewController: UIViewController {
     
     @IBOutlet weak var topView: UIView!
     
-    //@IBOutlet weak var horizontalStack: UIStackView!
+   
     
     
     @IBOutlet weak var verticalStack: UIStackView!
