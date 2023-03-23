@@ -13,7 +13,7 @@
 		DD306AD729CA22C400F25F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD306AD529CA22C400F25F4B /* Main.storyboard */; };
 		DD306AD929CA22C500F25F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD306AD829CA22C500F25F4B /* Assets.xcassets */; };
 		DD306ADC29CA22C500F25F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD306ADA29CA22C500F25F4B /* LaunchScreen.storyboard */; };
-		DD306AF129CA245300F25F4B /* Servis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD306AF029CA245300F25F4B /* Servis.swift */; };
+		DD306AF129CA245300F25F4B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD306AF029CA245300F25F4B /* Service.swift */; };
 		DD306AF329CA2E4300F25F4B /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD306AF229CA2E4300F25F4B /* DetailScreenViewModel.swift */; };
 		DD306AF529CA35EC00F25F4B /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD306AF429CA35EC00F25F4B /* MainScreenViewModel.swift */; };
 		DD306AF729CA360000F25F4B /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD306AF629CA360000F25F4B /* MainScreenModel.swift */; };
@@ -37,7 +37,7 @@
 		DD306AD829CA22C500F25F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD306ADB29CA22C500F25F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD306ADD29CA22C500F25F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD306AF029CA245300F25F4B /* Servis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servis.swift; sourceTree = "<group>"; };
+		DD306AF029CA245300F25F4B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DD306AF229CA2E4300F25F4B /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
 		DD306AF429CA35EC00F25F4B /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
 		DD306AF629CA360000F25F4B /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				DD306AE329CA230800F25F4B /* Screen */,
 				DD306ACF29CA22C400F25F4B /* AppDelegate.swift */,
 				DD306AD129CA22C400F25F4B /* SceneDelegate.swift */,
-				DD306AF029CA245300F25F4B /* Servis.swift */,
+				DD306AF029CA245300F25F4B /* Service.swift */,
 				DD306AD529CA22C400F25F4B /* Main.storyboard */,
 				DD306AD829CA22C500F25F4B /* Assets.xcassets */,
 				DD306ADA29CA22C500F25F4B /* LaunchScreen.storyboard */,
@@ -323,7 +323,7 @@
 				DD306AD229CA22C400F25F4B /* SceneDelegate.swift in Sources */,
 				DD306AFB29CA373A00F25F4B /* MainScreenViewController.swift in Sources */,
 				DD306AFD29CA378900F25F4B /* DetailScreenViewController.swift in Sources */,
-				DD306AF129CA245300F25F4B /* Servis.swift in Sources */,
+				DD306AF129CA245300F25F4B /* Service.swift in Sources */,
 				DD306AF329CA2E4300F25F4B /* DetailScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

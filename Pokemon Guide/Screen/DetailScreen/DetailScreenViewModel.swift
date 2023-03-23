@@ -10,7 +10,7 @@ import Foundation
 protocol PokemonDetailViewModelProtocol {
     var urlString: String { get set }
     var bindPokemonDetailData: ((PokemonDetailResponse?) -> ())? {get set}
-    //var bindPokemonMoveData: ((PokemonMove?) -> ())? {get set}
+    var bindPokemonMoveData: ((PokemonMove?) -> ())? {get set}
     func fetchDataPokemonDetail()
 }
 

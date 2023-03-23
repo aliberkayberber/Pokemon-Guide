@@ -13,7 +13,7 @@ class MainScreenViewController: UIViewController, UISearchResultsUpdating {
     
     private var pokemon: PokemonResponse?
     
-    let url = "https://pokeapi.co/api/v2/pokemon?&limit=40"
+    let url = "https://pokeapi.co/api/v2/pokemon?&limit=100"
     var selectedPokemon: Pokemon?
     
     @IBOutlet private weak var pokemonTableView: UITableView! {
@@ -44,13 +44,10 @@ class MainScreenViewController: UIViewController, UISearchResultsUpdating {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
-      //  let searchController = UISearchController(searchResultsController: nil)
-        
-       // navigationItem.searchController = searchController
         navigationController?.navigationBar.barTintColor = .green
         navigationController?.navigationBar.barStyle = .black
         
-       // searchController.searchResultsUpdater = self
+
         setupViewModel()
     }
     
